@@ -30,8 +30,10 @@
   - Пример вызова: `perimeter(3, 4, 5)` вернет `12`
 
 ## История изменения проекта
-*(Вставьте сюда вывод команды `git log --oneline` из вашего терминала, но обязательно удалите самую верхнюю/последнюю запись, как того требует задание)*
-
-Пример того, как это должно выглядеть:
+- `1d9917` add dock for code
+- `7be7a0` lalala
+- `d4d911` fix the error in rectangle.py
+- `f93997` create file rectangle.py
+- `cf5b2f` create file rectangle.py
 - `d078c8d` L-03: Docs added
 - `8ba9aeb` L-03: Circle and square added
