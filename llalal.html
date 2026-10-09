@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body style="background:#1e1e1e; display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; margin:0; font-family:sans-serif; color:white;">
+<h3 style="margin-bottom:10px;">Пункт 2: P = {1, 2, 3, 4, 5, 6, 8, 9} (выделены зеленым)</h3>
+<svg width="650" height="480" viewBox="0 0 650 480">
+  <!-- Универсум U (закрашен, так как 9 входит в ответ) -->
+  <rect x="10" y="10" width="630" height="460" fill="rgba(46, 204, 113, 0.12)" stroke="#2ecc71" stroke-width="3" rx="10"/>
+  <text x="30" y="45" fill="#ffffff" font-size="24" font-weight="bold">U</text>
+  
+  <!-- Круг A -->
+  <circle cx="250" cy="190" r="120" fill="rgba(255, 99, 132, 0.15)" stroke="#ff6384" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="145" y="110" fill="#ff6384" font-size="24" font-weight="bold">A</text>
+
+  <!-- Круг B -->
+  <circle cx="390" cy="190" r="120" fill="rgba(54, 162, 235, 0.15)" stroke="#36a2eb" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="485" y="110" fill="#36a2eb" font-size="24" font-weight="bold">B</text>
+
+  <!-- Круг C -->
+  <ellipse cx="270" cy="295" rx="145" ry="110" fill="rgba(75, 192, 192, 0.15)" stroke="#4bc0c0" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="130" y="380" fill="#4bc0c0" font-size="24" font-weight="bold">C</text>
+
+  <!-- Круг D -->
+  <ellipse cx="370" cy="295" rx="145" ry="110" fill="rgba(255, 206, 86, 0.15)" stroke="#ffce56" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="500" y="380" fill="#ffce56" font-size="24" font-weight="bold">D</text>
+
+  <!-- ВЫДЕЛЕННЫЕ ЭЛЕМЕНТЫ ОТВЕТА P = {1, 2, 3, 4, 5, 6, 8, 9} -->
+  <g fill="#2ecc71" font-size="22" font-weight="bold">
+    <!-- 3: A и B -->
+    <circle cx="322" cy="127" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="315" y="135" fill="#ffffff">3</text>
+
+    <!-- 2: только B -->
+    <circle cx="462" cy="157" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="455" y="165" fill="#ffffff">2</text>
+
+    <!-- 5: A, B, C -->
+    <circle cx="282" cy="207" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="275" y="215" fill="#ffffff">5</text>
+
+    <!-- 1: B и C -->
+    <circle cx="387" cy="257" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="380" y="265" fill="#ffffff">1</text>
+
+    <!-- 6: A, C, D -->
+    <circle cx="267" cy="277" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="260" y="285" fill="#ffffff">6</text>
+
+    <!-- 4: только C -->
+    <circle cx="202" cy="332" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="195" y="340" fill="#ffffff">4</text>
+
+    <!-- 8: только D -->
+    <circle cx="452" cy="332" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="445" y="340" fill="#ffffff">8</text>
+
+    <!-- 9: вне кругов (в U) -->
+    <circle cx="597" cy="432" r="18" fill="rgba(46, 204, 113, 0.3)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="590" y="440" fill="#ffffff">9</text>
+  </g>
+
+  <!-- НЕ ВХОДЯТ В ОТВЕТ (0 и 7) -->
+  <text x="355" y="215" fill="#7f8c8d" font-size="22">0</text>
+  <text x="455" y="255" fill="#7f8c8d" font-size="22">7</text>
+</svg>
+</body>
+</html>
