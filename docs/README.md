@@ -63,8 +63,6 @@ print(triangle.perimeter(3, 4, 5)) # Результат: 12
 
 | Hash коммита | Описание изменений |
 | :--- | :--- |
-| `1d9917` | add dock for code |
-| `7be7a0` | lalala |
 | `d4d911` | fix the error in rectangle.py |
 | `f93997` | create file rectangle.py |
 | `cf5b2f` | create file rectangle.py |
